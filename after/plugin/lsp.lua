@@ -5,7 +5,8 @@ lsp.ensure_installed({
 	'eslint',
 	'rust_analyzer',
 	'cssls',
-	'tailwindcss'
+	'tailwindcss',
+    'gopls'
 })
 
 lsp.on_attach(function(client, bufnr)
